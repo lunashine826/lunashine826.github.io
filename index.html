@@ -1,0 +1,1220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Stack-Full Web Developer Portfolio</title>
+    <meta name="description" content>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Future Profilez">
+    <meta name="apple-mobile-web-app-title" content="Future Profilez">
+    <meta name="theme-color" content="#00abff">
+    <meta name="msapplication-navbutton-color" content="#14c3bf">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" href="https://futureprofilez.com/wp-content/themes/fptheme/assets2/img/fevicon.ico">
+    <link rel="icon" type="image/png"
+        href="https://futureprofilez.com/wp-content/themes/fptheme/assets2/img/fevicon.ico">
+    <link rel="preload" href="https://futureprofilez.com/wp-content/themes/fptheme/assets2/css/bootstrap.min.css"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <style>
+        :root {
+            --mc: #ff833d;
+            --sc: #14c3bf;
+            --bs-body-font-size: 1rem;
+            --bs-body-font-weight: 400;
+            --bs-body-line-height: 1.5;
+            --bs-body-color: #0e0e0e;
+            --bs-body-bg: #fff;
+            scroll-behavior: smooth
+        }
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box
+        }
+
+        body,
+        html {
+            scroll-behavior: smooth
+        }
+
+        html {
+            font-family: sans-serif;
+            font-family: poppins, sans-serif;
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        footer,
+        header,
+        section {
+            display: block
+        }
+
+        body {
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            text-align: left;
+            background-color: #fff;
+            font-family: poppins, sans-serif;
+            padding: 0
+        }
+
+        dl,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ol,
+        p,
+        ul {
+            margin-top: 0
+        }
+
+        a {
+            color: #333
+        }
+
+        dl,
+        ol,
+        p,
+        ul {
+            margin-bottom: 1rem
+        }
+
+        a {
+            color: #007bff;
+            background-color: transparent;
+            outline: 0;
+            text-decoration: none;
+            -webkit-transition: all .2s;
+            -o-transition: all .2s;
+            transition: all .2s
+        }
+
+        img {
+            vertical-align: middle;
+            border-style: none
+        }
+
+        table {
+            border-collapse: collapse
+        }
+
+        th {
+            text-align: inherit;
+            text-align: -webkit-match-parent
+        }
+
+        button {
+            border-radius: 0
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            margin: 0;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit
+        }
+
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 1.2
+        }
+
+        .h1,
+        h1 {
+            font-size: 2.5rem
+        }
+
+        .h2,
+        h2 {
+            font-size: 2rem
+        }
+
+        .h3,
+        h3 {
+            font-size: 1.75rem
+        }
+
+        .h4,
+        h4 {
+            font-size: 1.5rem
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto
+        }
+
+        button,
+        input {
+            overflow: visible
+        }
+
+        button,
+        select {
+            text-transform: none
+        }
+
+        [type=button],
+        [type=reset],
+        [type=submit],
+        button {
+            -webkit-appearance: button
+        }
+
+        [type=button]:not(:disabled),
+        [type=reset]:not(:disabled),
+        [type=submit]:not(:disabled),
+        button:not(:disabled) {
+            cursor: pointer
+        }
+
+        .container {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto
+        }
+
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px
+        }
+
+        .fa {
+            /*font-display: swap;*/
+        }
+
+        .col,
+        .col-1,
+        .col-10,
+        .col-11,
+        .col-12,
+        .col-2,
+        .col-3,
+        .col-4,
+        .col-5,
+        .col-6,
+        .col-7,
+        .col-8,
+        .col-9,
+        .col-auto,
+        .col-lg,
+        .col-lg-1,
+        .col-lg-10,
+        .col-lg-11,
+        .col-lg-12,
+        .col-lg-2,
+        .col-lg-3,
+        .col-lg-4,
+        .col-lg-5,
+        .col-lg-6,
+        .col-lg-7,
+        .col-lg-8,
+        .col-lg-9,
+        .col-lg-auto,
+        .col-md,
+        .col-md-1,
+        .col-md-10,
+        .col-md-11,
+        .col-md-12,
+        .col-md-2,
+        .col-md-3,
+        .col-md-4,
+        .col-md-5,
+        .col-md-6,
+        .col-md-7,
+        .col-md-8,
+        .col-md-9,
+        .col-md-auto,
+        .col-sm,
+        .col-sm-1,
+        .col-sm-10,
+        .col-sm-11,
+        .col-sm-12,
+        .col-sm-2,
+        .col-sm-3,
+        .col-sm-4,
+        .col-sm-5,
+        .col-sm-6,
+        .col-sm-7,
+        .col-sm-8,
+        .col-sm-9,
+        .col-sm-auto,
+        .col-xl,
+        .col-xl-1,
+        .col-xl-10,
+        .col-xl-11,
+        .col-xl-12,
+        .col-xl-2,
+        .col-xl-3,
+        .col-xl-4,
+        .col-xl-5,
+        .col-xl-6,
+        .col-xl-7,
+        .col-xl-8,
+        .col-xl-9,
+        .col-xl-auto {
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px
+        }
+
+        div#snowfall-wrapper i.snowflake {
+            color: #86b7ec;
+        }
+
+        .chis_wrapper img {
+            transition: 1s linear;
+            max-width: 150px;
+        }
+
+        .chis_wrapper {
+            bottom: 144px;
+            position: fixed;
+            -webkit-animation: linear infinite;
+            -webkit-animation-name: santarun;
+            -webkit-animation-duration: 20s;
+            top: auto;
+            right: auto;
+            animation-iteration-count: infinite;
+            left: auto;
+            z-index: 9999999;
+        }
+
+        @keyframes santarun {
+            0% {
+                right: 0;
+                -webkit-transform: rotateY(0deg);
+            }
+
+            50% {
+                right: 100%;
+                -webkit-transform: rotateY(0deg);
+            }
+
+            51% {
+                -webkit-transform: rotateY(180deg);
+            }
+
+            99% {
+                right: 0;
+                -webkit-transform: rotateY(180deg);
+            }
+
+            100% {
+                right: 0;
+                -webkit-transform: rotateY(0deg);
+            }
+        }
+
+        .countdownsec {
+            z-index: 999999999999999 !important;
+        }
+
+        h3#headline {
+            color: #fff;
+            font-style: italic;
+            line-height: 44px;
+            font-weight: bold;
+        }
+
+        /* snow flake css end */
+    </style>
+    <noscript>
+        <link rel="stylesheet"
+            href="https://futureprofilez.com/wp-content/themes/fptheme/assets2/css/bootstrap.min.css">
+    </noscript>
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap">
+    <link rel="preload" as="font" onload="this.onload=null;this.rel='stylesheet'"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet"
+        href="https://futureprofilez.com/wp-content/themes/fptheme/assets2/css/slick-theme.css?afraf4wa">
+    <link type="text/css" media="all" rel="stylesheet"
+        href="https://futureprofilez.com/wp-content/themes/fptheme/assets2/css/style.css?1687902473">
+    <link type="text/css" media="all" rel="stylesheet"
+        href="https://futureprofilez.com/wp-content/themes/fptheme/assets2/css/inner.css?time=1687902473">
+    <link rel="manifest" href="https://futureprofilez.com/wp-content/themes/fptheme/assets2/futureprofilez.json" />
+    <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Future Profilez",
+                "url": "https://futureprofilez.com/",
+                "logo": "https://futureprofilez.com/wp-content/themes/fptheme/assets/images/logo31.png",
+                "sameAs": [
+                    "https://www.facebook.com/futureprofilez3",
+                    "https://twitter.com/futureprofilez1",
+                    "https://www.youtube.com/watch?v=bYKv9sMAQbg",
+                    "https://www.linkedin.com/company/futureprofilez/",
+                    "https://futureprofilez.com/"
+                ]
+            }
+        </script>
+    <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "Future Profilez",
+                "image": "https://futureprofilez.com/wp-content/themes/fptheme/assets/images/logo31.png",
+                "@id": "",
+                "url": "https://futureprofilez.com/",
+                "telephone": "+91 9983333334",
+                "priceRange": "Contact us",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "D-105, B Devi Marg, G4 Golden Oak Banipark",
+                    "addressLocality": "Jaipur",
+                    "postalCode": "302016",
+                    "addressCountry": "IN"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 26.9275602,
+                    "longitude": 75.7884282
+                },
+                "sameAs": [
+                    "https://www.facebook.com/futureprofilez3",
+                    "https://twitter.com/futureprofilez1",
+                    "https://www.youtube.com/watch?v=bYKv9sMAQbg",
+                    "https://www.linkedin.com/company/futureprofilez/",
+                    "https://futureprofilez.com/"
+                ]
+            }
+        </script>
+    <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebSite",
+                "name": "Future Profilez",
+                "url": "https://futureprofilez.com/",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://futureprofilez.com/contact-us/{search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            }
+        </script>
+    <link type="text/css" media="all" rel="stylesheet"
+        href="https://futureprofilez.com/wp-content/themes/fptheme/assets2/css/christmas/style.css?1687902473">
+    <title>Portfolio &#8211; Aidan Brose</title>
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="alternate" type="application/rss+xml"
+        title="Website Design India &amp; Web Development Company India | Future Profilez &raquo; Feed"
+        href="https://futureprofilez.com/feed/" />
+    <link rel="alternate" type="application/rss+xml"
+        title="Website Design India &amp; Web Development Company India | Future Profilez &raquo; Comments Feed"
+        href="https://futureprofilez.com/comments/feed/" />
+    <link rel="stylesheet" id="classic-theme-styles-css"
+        href="https://futureprofilez.com/wp-includes/css/classic-themes.min.css?ver=6.2.2" media="all" />
+    <style id="global-styles-inline-css">
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+            --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+            --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+            --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+            --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+            --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+            --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+            --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel="stylesheet" id="contact-form-7-css"
+        href="https://futureprofilez.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.6"
+        media="all" />
+    <style id="contact-form-7-inline-css">
+        .wpcf7 .wpcf7-recaptcha iframe {
+            margin-bottom: 0;
+        }
+
+        .wpcf7 .wpcf7-recaptcha[data-align="center"]>div {
+            margin: 0 auto;
+        }
+
+        .wpcf7 .wpcf7-recaptcha[data-align="right"]>div {
+            margin: 0 0 0 auto;
+        }
+    </style>
+    <link rel="stylesheet" id="email-subscribers-css"
+        href="https://futureprofilez.com/wp-content/plugins/email-subscribers/lite/public/css/email-subscribers-public.css?ver=5.6.4"
+        media="all" />
+    <script src="https://futureprofilez.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js"></script>
+
+    <script src="https://futureprofilez.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0"
+        id="jquery-migrate-js"></script>
+    <script src="https://futureprofilez.com/wp-content/themes/fptheme/assets2/js/jquery-3.6.0.min.js?ver=6.2.2"
+        id="jquery_3.6_js-js"></script>
+    <script src="https://futureprofilez.com/wp-content/themes/fptheme/assets2/js/bootstrap.min.js?ver=6.2.2"
+        id="bootstrap_js-js"></script>
+    <script src="https://futureprofilez.com/wp-content/themes/fptheme/assets2/js/slick.min.js?ver=6.2.2"
+        id="slick_js-js"></script>
+    <link rel="https://api.w.org/" href="https://futureprofilez.com/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://futureprofilez.com/wp-json/wp/v2/pages/15917" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://futureprofilez.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://futureprofilez.com/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 6.2.2" />
+    <link rel="canonical" href="https://futureprofilez.com/portfolio/" />
+    <link rel="shortlink" href="https://futureprofilez.com/?p=15917" />
+    <link rel="alternate" type="application/json+oembed"
+        href="https://futureprofilez.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffutureprofilez.com%2Fportfolio%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://futureprofilez.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffutureprofilez.com%2Fportfolio%2F&#038;format=xml" />
+    <script>
+        var ajaxurl = 'https://futureprofilez.com/wp-admin/admin-ajax.php';
+    </script>
+    <link rel="preconnect" href="//code.tidio.co">
+    <link rel="icon" href="https://futureprofilez.com/wp-content/uploads/2022/02/download.png" sizes="32x32" />
+    <link rel="icon" href="https://futureprofilez.com/wp-content/uploads/2022/02/download.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://futureprofilez.com/wp-content/uploads/2022/02/download.png" />
+    <meta name="msapplication-TileImage" content="https://futureprofilez.com/wp-content/uploads/2022/02/download.png" />
+    <style>
+        a.page-more {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #00abff;
+            border: 1px solid #00abff;
+            border-radius: 0;
+            padding: 10px 20px;
+            min-width: 160px;
+            margin: 0 13px 10px 0;
+            display: block;
+            max-width: 150px;
+        }
+
+        a.page-more:hover {
+            background: #333;
+            color: #fff;
+            border-color: #333;
+        }
+
+        .top-header .contact-links {
+            display: block !important;
+            margin-left: auto;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+        }
+
+        #author_name {
+            display: block;
+            width: 100%;
+            text-align: left;
+        }
+
+        #role_name {
+            display: block;
+            width: 100%;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body
+    class="page-template page-template-template2 page-template-template-portfolio page-template-template2template-portfolio-php page page-id-15917">
+    <div class="headerouter" style="height:180px;">
+        <header>
+            <section class="top-header">
+                <div class="container">
+                    <div class="contact-links" style="min-height:180px;">
+                        <div id="author_name"></div>
+                        <div id="role_name"></div>
+                    </div>
+                </div>
+            </section>
+        </header>
+    </div>
+    <section class="portfolio-details">
+        <div class="container filters">
+            <div>
+                <div class="filters-navs">
+                    <button class="active btn" id="all" onclick="cur_page=0;getPage(0)" data-id="0">Show All</button>
+                </div>
+            </div>
+            <div>
+                <div class="filters-navs">
+                    <button class="btn" id="react" onclick="cur_page=0;getPage(1)" data-id="1">ReactJS</button>
+                    <button class="btn" id="angular" onclick="cur_page=0;getPage(2)" data-id="2">Angular</button>
+                    <button class="btn" id="vue" onclick="cur_page=0;getPage(3)" data-id="3">VueJS</button>
+                </div>
+            </div>
+            <div>
+                <div class="filters-navs">
+                    <button class="btn" id="flutter" onclick="cur_page=0;getPage(4)" data-id="4">Flutter</button>
+                    <button class="btn" id="reactNative" onclick="cur_page=0;getPage(5)" data-id="5">React
+                        Native</button>
+                </div>
+            </div>
+            <div>
+                <div class="filters-navs">
+                    <button class="btn" id="node" onclick="cur_page=0;getPage(6)" data-id="6">NodeJS</button>
+                    <button class="btn" id="laravel" onclick="cur_page=0;getPage(7)" data-id="7">Laravel</button>
+                    <button class="btn" id="django" onclick="cur_page=0;getPage(8)" data-id="8">Django</button>
+                    <button class="btn" id="ruby" onclick="cur_page=0;getPage(9)" data-id="9">Ruby on Rails</button>
+                    <button class="btn" id="golang" onclick="cur_page=0;getPage(10)" data-id="10">Golang</button>
+                    <button class="btn" id="spring" onclick="cur_page=0;getPage(11)" data-id="11">Spring Boot /
+                        Framework</button>
+                    <button class="btn" id="codeignitor" onclick="cur_page=0;getPage(12)"
+                        data-id="12">CodeIgnitor</button>
+                    <button class="btn" id="symfony" onclick="cur_page=0;getPage(13)" data-id="13">Symfony</button>
+                    <button class="btn" id="corePHP" onclick="cur_page=0;getPage(14)" data-id="14">Core / Custom
+                        PHP</button>
+                    <button class="btn" id="dotnet" onclick="cur_page=0;getPage(15)" data-id="15">DotNet / C#</button>
+                </div>
+            </div>
+            <div>
+                <div class="filters-navs">
+                    <button class="btn" id="wordpress" onclick="cur_page=0;getPage(16)" data-id="16">WordPress</button>
+                    <button class="btn" id="wordpress" onclick="cur_page=0;getPage(17)" data-id="17">AI / ML</button>
+                    <button class="btn" id="wordpress" onclick="cur_page=0;getPage(18)" data-id="18">Scraping</button>
+                </div>
+            </div>
+            <div class="filters-navs">
+                <!-- <button class="btn " id="app" onclick="cur_page =0 ;getPage(1)" data-id="1">App &amp; Plugin Development
+                    / Customization</button>
+                <button class="btn " id="cms" onclick="cur_page =0 ;getPage(2)" data-id="2">CMS</button>
+                <button class="btn " id="php" onclick="cur_page =0 ;getPage(3)" data-id="3">Core&nbsp;PHP</button>
+                <button class="btn" id="ecommerce" onclick="cur_page =0 ;getPage(4)" data-id="4">Ecommerce</button>
+                <button class="btn" id="magento1" onclick="cur_page =0 ;getPage(5)" data-id="5">Magento</button>
+                <button class="btn" id="other" onclick="cur_page =0 ;getPage(6)" data-id="6">Other</button>
+                <button class="btn" id="our-designs" onclick="cur_page =0 ;getPage(7)"
+                    data-id="7">Our&nbsp;Designs</button>
+                <button class="btn" id="php-framework" onclick="cur_page =0 ;getPage(8)"
+                    data-id="8">PHP Framework</button>
+                <button class="btn" id="react-js" onclick="cur_page =0 ;getPage(9)" data-id="9">React JS</button>
+                <button class="btn" id="redesigns" onclick="cur_page =0 ;getPage(10)" data-id="10">Redesigns</button>
+                <button class="btn" id="seo" onclick="cur_page =0 ;getPage(11)" data-id="11">SEO</button>
+                <button class="btn" id="shopify" onclick="cur_page =0 ;getPage(12)" data-id="12">Shopify</button>
+                <button class="btn" id="wordpress" onclick="cur_page =0 ;getPage(13)" data-id="13">WordPress</button>
+                <button class="btn" id="Angular" onclick="cur_page =0 ;getPage(14)" data-id="14">Angular</button> -->
+            </div>
+            <div id="parent" class="portfolio-list">
+                <div class="box all" id="content-wrapper"></div>
+                <div class="show-more-title d-flex flex-wrap justify-content-center">
+                    <a href="javascript:void(0);" class="page-more" data-page-no="1" catid=""
+                        onclick="getPage(undefined,cur_page+1)">Show More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copy-right">
+        <div class="container">
+            <p>Copyright ® 2023 Company All Rights Reserved</p>
+        </div>
+    </div>
+    <input id="validaction" value="0" type="hidden" data-name="0">
+
+    <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i>Back</a>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script>
+        window.setTimeout(function () {
+            // First check, if localStorage is supported.
+            if (window.localStorage) {
+                // Get the expiration date of the previous popup.
+                var nextPopup = localStorage.getItem('disPopup');
+
+                if (nextPopup > new Date()) {
+                    return;
+                }
+
+                // Store the expiration date of the current popup in localStorage.
+                var expires = new Date();
+                expires = expires.setHours(expires.getHours() + 24);
+
+                localStorage.setItem('disPopup', expires);
+            }
+
+            window.onload = () => {
+
+                jQuery('#onload').modal('show');
+            }
+
+        }, 3000);
+
+
+        jQuery(document).on("click", ".disc-close", function () {
+            jQuery("#onload").modal('hide');
+        });
+
+        jQuery('.brochure_btn').click(function () {
+            jQuery(this).parent().toggleClass('show_brochure');
+        });
+    </script>
+    <script type="text/javascript">
+        jQuery(document).on("blur", "input", function (e) {
+            e.preventDefault()
+            var thiss = jQuery(this);
+            var field = jQuery(this).val();
+            var type = jQuery(this).attr('type');
+            jQuery.ajax({
+                url: 'https://futureprofilez.com/wp-admin/admin-ajax.php',
+                data: {
+                    'field': field,
+                    'type': type,
+                    'action': 'arjvalidateform'
+                },
+                dataType: 'json',
+                type: 'POST',
+                success: function (response) {
+                    if (response != 'success') {
+                        thiss.val('');
+                        alert(response);
+                    }
+                }
+            });
+        })
+    </script>
+    <script>
+        var go_url_js = "https://futureprofilez.com/thank-you/";
+        document.addEventListener('wpcf7mailsent', function (event) {
+            location = go_url_js;
+
+        }, false);
+    </script>
+    <script src="https://futureprofilez.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.6"
+        id="swv-js"></script>
+    <script id="contact-form-7-js-extra">
+        var wpcf7 = { "api": { "root": "https:\/\/futureprofilez.com\/wp-json\/", "namespace": "contact-form-7\/v1" } };
+    </script>
+    <script src="https://futureprofilez.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.6"
+        id="contact-form-7-js"></script>
+    <script id="email-subscribers-js-extra">
+        var es_data = { "messages": { "es_empty_email_notice": "Please enter email address", "es_rate_limit_notice": "You need to wait for some time before subscribing again", "es_single_optin_success_message": "Successfully Subscribed.", "es_email_exists_notice": "Email Address already exists!", "es_unexpected_error_notice": "Oops.. Unexpected error occurred.", "es_invalid_email_notice": "Invalid email address", "es_try_later_notice": "Please try after some time" }, "es_ajax_url": "https:\/\/futureprofilez.com\/wp-admin\/admin-ajax.php" };
+    </script>
+    <script
+        src="https://futureprofilez.com/wp-content/plugins/email-subscribers/lite/public/js/email-subscribers-public.js?ver=5.6.4"
+        id="email-subscribers-js"></script>
+    <script id="common_js-js-extra">
+        var ajax_object = { "ajaxurl": "https:\/\/futureprofilez.com\/wp-admin\/admin-ajax.php" };
+    </script>
+    <script src="https://futureprofilez.com/wp-content/themes/fptheme/assets2/js/common.js?time=1687902473&#038;ver=1.0"
+        id="common_js-js"></script>
+    <script src="https://futureprofilez.com/wp-content/themes/fptheme/includes/shortcodes/js/shrotcodes.js?ver=1.0"
+        id="skt-shortcodes-js-js"></script>
+    <script src="https://futureprofilez.com/wp-content/themes/fptheme/includes/shortcodes/js/jquery.tipTip.js?ver=1.0"
+        id="skt-tolltip-js-js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery('.navbar-nav>li').find('.dropdown-mega-menu').addClass('inner');
+            jQuery('.navbar-nav>li').find('.dropdown-mega-menu').parent('li').after().append('<span></span>');
+
+        });
+        jQuery('.counter-value span').each(function () {
+            var $this = jQuery(this);
+            jQuery({
+                Counter: 0
+            }).animate({
+                Counter: $this.data('value')
+            }, {
+                duration: 1000,
+                easing: 'swing',
+                step: function () {
+                    $this.text(Math.ceil(this.Counter));
+                }
+            });
+        });
+    </script>
+
+    <script>
+        var json_data = [];
+        var json_category_data = [];
+        var page_count = 10;
+        var cur_page = 0;
+        var config_info;
+        $.getJSON("data.json", function (json) {
+            json_data = json['follio_list'];
+            config_info = json['config'];
+            initData();
+            getPage(0);
+            $("#author_name").text(config_info['author_name']);
+            $("#role_name").text(config_info['role_name']);
+        });
+
+        $(function () {
+
+        });
+
+        function initData() {
+            var category_cnt = $(".filters .btn").length;
+            for (var i = 0; i <= category_cnt; i++) {
+                json_category_data[i] = [];
+            }
+            for (var i = 0; i < json_data.length; i++) {
+                if (typeof (json_data[i]['category']) == "number") {
+                    json_category_data[json_data[i]['category']].push(json_data[i]);
+                } else {
+                    json_data[i]['category'].map((item) => {
+                        json_category_data[item].push(json_data[i]);
+                    })
+                }
+            }
+        }
+
+        function getPage(tag_index, page_start) {
+            if (tag_index == undefined) {
+                tag_index = $(".filters .filters-navs .btn.active").attr("data-id");
+            }
+            if (page_start == undefined) {
+                page_start = cur_page;
+            }
+            var append_infos = [];
+            if (parseInt(tag_index) == 0) {
+                for (var i = (cur_page * page_count); i < ((cur_page + 1) * page_count); i++) {
+                    if (json_data.length > i) {
+                        append_infos.push(json_data[i]);
+                    }
+                }
+            } else {
+                for (var i = (cur_page * page_count); i < ((cur_page + 1) * page_count); i++) {
+                    if (json_category_data[tag_index].length > i) {
+                        append_infos.push(json_category_data[tag_index][i]);
+                    }
+                }
+            }
+
+            var html = "";
+            $.each(append_infos, function (i, info) {
+                html += createHtml(info);
+            });
+            if (cur_page == 0) {
+                $("#parent #content-wrapper").html(html);
+            } else {
+                $("#parent #content-wrapper").append(html);
+            }
+
+            if (append_infos.length > 0) {
+                cur_page++;
+            }
+            $(".filters .btn").removeClass("active");
+            $(".filters .btn").eq(tag_index).addClass("active");
+        }
+
+        function createHtml(info) {
+            var html = `
+                    <div class="row align-items-center">
+                        <div class="col-md-5">
+                            <img src="${info['img']}" class="img-fluid" alt="image">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="porfolio-content">
+                                <h2>${info['title']}</h2>
+                                <div class="taglist">
+                                    <ul>`;
+            var tags_a = info.tags.split(",");
+            for (var i = 0; i < tags_a.length; i++) {
+                html += ` 
+                                        <li>${tags_a[i]}</li>
+                        `;
+            }
+            html += `                
+                                    </ul>
+                                </div>
+                            <div>
+                                <p>${info['description']}</p>
+                            </div>
+                            <div class="text-center">
+                                <a href="${info.url}" class="btn" target="_blank">Visit Site</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                `;
+
+            return html
+        }
+
+
+
+        function dataImport() {
+            json_data = [];
+            $("#parent .row").each(function () {
+                var ele_data = {};
+                ele_data['img'] = $(this).find("img").attr("src");
+                ele_data['title'] = $(this).find("h2").text();
+                var tags_a = [];
+                $(this).find(".taglist li").each(function () {
+                    tags_a.push($(this).text());
+                });
+                ele_data['tags'] = tags_a.join(",");
+                ele_data['description'] = $(this).find("p").text();
+                ele_data['url'] = $(this).find("a[target=_blank]").attr("href");
+                json_data.push(ele_data);
+            });
+            console.log("data", JSON.stringify(json_data));
+        }
+    </script>
+
+</body>
+
+</html>

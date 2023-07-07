@@ -1,0 +1,143 @@
+{
+    "config": {
+        "author_name": "Aidan Brose",
+        "role_name": "Senior Software Engineer"
+    },
+    "follio_list": [
+        {
+            "img": "image/screenshot_atheneum.png",
+            "title": "Atheneum",
+            "tags": "React,Node,MySQL,ElasticSearch,Redis,WordPress",
+            "description": "Atheneum is a global knowledge sharing platform that connects leading investment funds, consulting firms, and corporations with industry experts for the purpose of conducting primary research. They provide on-demand access to over 450,000 experts worldwide across a wide range of industries and fields.",
+            "url": "https://www.atheneum.ai/",
+            "category": [
+                1,
+                6,
+                16
+            ]
+        },
+        {
+            "img": "image/screenshot_entefy.png",
+            "title": "Entefy",
+            "tags": "Vue,Django,PostgreSQL",
+            "description": "Entefy is an AI-enabled, multi-format, multi-channel communication platform which integrates with all major forms of digital communication and seamlessly syncs them across all your digital devices. Entefy is designed platform-first with the entire server and infrastructure stack custom designed for performance and scalability for millions of users.",
+            "url": "https://entefy.com",
+            "category": [
+                3,
+                8
+            ]
+        },
+        {
+            "img": "image/Screenshot_rightboat.png",
+            "title": "Rightboat",
+            "tags": "Ruby on Rails,Google Ads,Bootstrap,jQuery",
+            "description": "Rightboat is a website dedicated to connecting boat buyers with boat sellers around the world. The website offers a wide range of new and used boats for sale, as well as a variety of other services related to the boating industry. Users can search for boats based on various criteria such as make, model, price range, and location. The website also provides helpful resources and information for boat buyers and sellers, including financing options, insurance, and maintenance tips.",
+            "url": "https://www.rightboat.com/",
+            "category": 9
+        },
+        {
+            "img": "image/screenshot-www.myhomeupgrade.ca-2022.09.08-14_51_37.png",
+            "title": "My Home Upgrade",
+            "tags": "Wordpress,HTML5/CSS3,JavaScript",
+            "description": "Website is for users who are looking for to renovate their house or any part of house, Website also provides loan related services.",
+            "url": "https://www.myhomeupgrade.ca/",
+            "category": 16
+        },
+        {
+            "img": "image/screenshot-ajcustomprintingandpainting.com-2022.09.08-14_41_23.png",
+            "title": "AJ Custom Printing & Painting",
+            "tags": "Wordpress,HTML5/CSS3,jQuery & Ajax,Woocommerce,Ecommerce",
+            "description": "Online store with options to customize clothes, Based on woocommerce and wordpress",
+            "url": "https://ajcustomprintingandpainting.com/",
+            "category": 16
+        },
+        {
+            "img": "image/screenshot-laybyshop.com-2022.09.08-13_27_03.png",
+            "title": "Lay by Shop",
+            "tags": "Wordpress,HTML5/CSS3,Woocommerce,Twitter Bootstrap,Elementor",
+            "description": "User can pay installments for their favourite products(phones,tablets) When the installments finishes website will send device to the user address, Used wordpress, Woocommerce",
+            "url": "https://laybyshop.com/",
+            "category": 16
+        },
+        {
+            "img": "image/screenshot-www.sameday-delivery.co_.uk-2022.09.08-12_10_58.png",
+            "title": "Sameday Delivery",
+            "tags": "Core PHP,HTML5/CSS3,jQuery & Ajax",
+            "description": "This website is the management portal for the delivery which are handled within the website",
+            "url": "https://www.sameday-delivery.co.uk/",
+            "category": 14
+        },
+        {
+            "img": "image/algora-1-600x220.jpg",
+            "title": "Algora",
+            "tags": "Custom PHP,Smarty,HTML5/CSS3,jQuery & Ajax,Responsive",
+            "description": "Algora Publishing is an independent publisher featuring top international authors on questions of global scope. It help readers sharpen their own analyses on questions of Politics & International Affairs, History, Philosophy and Social Issues, Political Economy and Current Events etc. It provides the facility of online libraries. User can download catalogs, search for any books,promoting any books. It publishes intriguing, serious books on matters of national and international concern in the tradition of independent publishing.",
+            "url": "http://www.algora.com/",
+            "category": 14
+        },
+        {
+            "img": "image/image_rentmeacar-600x220.jpg",
+            "title": "Rent Me A Car",
+            "tags": "PHP,HTML5/CSS3,jQuery & Ajax,FB pixel,Google Analytics",
+            "description": "RentMeACar.net offers the optimum options for global rent a car service for your leisure and business trip on all major destinations around the world. its gives best offer inclusive variety of car classes new high-quality vehicles meeting your needs and budget best and also secure payment process,cards accepted in payment gateway easy & quickly accessible rental rates worldwide, big savings and exclusive quality vehicles that range from Sedans, Hatchbacks, SUVs,etc.By booking with us, you can rest assured that you're going to have a pleasant trip and spot-on transactions. We look forward to having you 'Ride with Us!'.",
+            "url": "https://rentmeacar.net/",
+            "category": 14
+        },
+        {
+            "img": "image/logo_cdw.jpg",
+            "title": "CDW",
+            "tags": "PHP,HTML5/CSS3,jQuery & Ajax",
+            "description": "CDW the most booming seller of IT products in the U.S.and outstanding leading a multi-brand technology solutions provider to business, government, education and healthcare organisations in the United States, Canada and the United Kingdom.He began by implementing a computerised database of product and customer information to boosted execution. To conflict inventory problems, formulate algorithms that gauged product sales and imploration. He also installed a 25-foot, hand-operated roller in the warehouse, which helped fill a three-day backlog in one day.CDW offerings ranges a hardware and software products to accomplished a IT solutions such as mobility, security, cloud, data centre and establishment.",
+            "url": "https://www.cdw.com/",
+            "category": 14
+        },
+        {
+            "img": "image/image_angerpros-600x220.jpg",
+            "title": "American Anger Management Institute",
+            "tags": "PHP,HTML5/CSS3,jQuery & Ajax",
+            "description": "Anger is a normal, healthy emotion. However, it can be a problem if you find it difficult to keep it under control.In this prospective we offer in our Anger Institute tremendous &high quality courses designed to help you learn about your mental health. Our goal is to provide an gratifying experience that will enhance your life, reduce stress, and that will help you reach your goals without impoverish .organisation, allowing us to provide our training at an exceptional value for our students.In medical issues our counselling services are accessible take an appointment face to face with our consultant(specialist). ",
+            "url": "http://angerpros.angerinstitute.net/modules/home/",
+            "category": 14
+        },
+        {
+            "img": "image/colorful-mexican-food_4_new.jpg",
+            "title": "La Tiendita",
+            "tags": "Magento,HTML5/CSS3,jQuery & Ajax,Mysql",
+            "description": "LaTiendita is a Europe-based online grocery store for hard-to-find authentic Mexican food recipes and cooking tips online. Their website, however, was not enriched with the latest functionality. However, after they contacted our development team, we were able to fully reinvigorate their site outlook which directly resulted in better lead generation.",
+            "url": "https://latienditamex.com/",
+            "category": 16
+        },
+        {
+            "img": "image/screenshot-dev.practiceflow.nl-2022.09.08-12_04_43.png",
+            "title": "Practiceflow",
+            "tags": "Cakephp,HTML5/CSS3,jQuery & Ajax,MySQL",
+            "description": "This is patient managment portal. This particular software is very useful for manging treatments of the patient and managing patiests report which are securely saved in the software. We have automated subdomain feature added in the software where user can create their own account and manage their own clinic.",
+            "url": "https://dev.practiceflow.nl",
+            "category": 14
+        },
+        {
+            "img": "image/screenshot-portrec.co_.uk-2022.09.08-11_32_38.png",
+            "title": "HR Portal",
+            "tags": "Cakephp,jQuery & Ajax",
+            "description": "It's a website where both Candidates , recuiters can upload/post their job requirements and can apply and contact with each other, admin also can track these thing between both users",
+            "url": "https://portrec.co.uk/",
+            "category": 14
+        },
+        {
+            "img": "image/downsize_200k_v1.jpeg",
+            "title": "Paid For Articles",
+            "tags": "Laravel,PHP,HTML5/CSS3,jQuery & Ajax,Appcelerators API",
+            "description": "A blogging site where writers get paid for writing articles on their preferred topics. We have customized and added functionality such as auto-detect plagiarism, grammar checker, auto delete drafts, and a host of other user-friendly features that allows them to easily submit their blogs and also interact directly with the content published.",
+            "url": "https://paidforarticles.com/",
+            "category": 7
+        },
+        {
+            "img": "https://futureprofilez.com/wp-content/uploads/2022/01/home_darscrubs_a-new.png",
+            "title": "Darscrubs",
+            "tags": "Laravel,PHP,HTML5/CSS3,jQuery & Ajax",
+            "description": "Darscrubs is the leading supplier of high-quality medical scrubs to doctors, nurses, and other medical professionals associated with the healthcare sector. For years, Darscrubs has been assisting healthcare centers in offering the first-rate safety and professional treatment that their patients need. The company is also the leading supplier of professionally crafted medical uniforms and other accessories. Their aim is to ensure that every medical practitioner has high-quality medical scrubs that allow him/her to better serve their patients through A-grade healthcare.",
+            "url": "https://www.darscrubs.com/",
+            "category": 7
+        }
+    ]
+}
